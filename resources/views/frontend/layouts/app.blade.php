@@ -31,7 +31,7 @@
     <style>
         .site-brand img {
             padding: 10px;
-            max-height: 75px;
+            max-height: 60px;
             transform: scale(1.3);
             margin-top: 5px;
             margin-left: 20px;

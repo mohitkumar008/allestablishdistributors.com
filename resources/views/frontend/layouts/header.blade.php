@@ -9,7 +9,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 visibleOnScroll">
+                <div class="col-md-8 visibleOnScroll">
                     <form action="https://distributorschannel.com/search">
                         <div class="site-search pb-0">
                             <div class="input-group">
@@ -24,7 +24,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-4   text-right">
+                {{-- <div class="col-md-4   text-right">
                     <div class="header_three">
                         <ul>
 
@@ -37,7 +37,7 @@
 
                         </ul>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
