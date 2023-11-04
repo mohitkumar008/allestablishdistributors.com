@@ -116,22 +116,22 @@
             <div class="tab-pane active" id="menu">
                 <nav id="left-sidebar-nav" class="sidebar-nav">
                     <ul id="main-menu" class="metismenu li_animation_delay">
-                        <li class="active">
+                        <li class="@yield('manufacturers_nav')">
                             <a href="{{route('manufacturers.index')}}">
                                 <i class="fa fa-dashboard"></i><span>Manufacturers</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="@yield('distributors_nav')">
                             <a href="#Dashboard">
                                 <i class="fa fa-dashboard"></i><span>Distributors</span>
                             </a>
                         </li>
-                        <li>
-                            <a href="#Dashboard">
+                        <li class="@yield('categories_nav')">
+                            <a href="{{route('categories.index')}}">
                                 <i class="fa fa-dashboard"></i><span>Categories</span>
                             </a>
                         </li>
-                        <li>
+                        <li class="@yield('leads_nav')">
                             <a href="#Dashboard">
                                 <i class="fa fa-dashboard"></i><span>Leads</span>
                             </a>

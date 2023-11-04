@@ -18,6 +18,7 @@ class Manufacturer extends Model
         "category_id",
         "investment_range",
         "company_name",
+        "company_slug",
         "marketing_support",
         "sales_support",
         "term_renewable",
@@ -41,4 +42,12 @@ class Manufacturer extends Model
         "status",
         "business_nature"
     ];
+
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
+
+    public function products(){
+        return $this->hasMany(Product::class);
+    }
 }

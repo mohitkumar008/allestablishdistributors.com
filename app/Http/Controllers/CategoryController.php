@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Yajra\DataTables\DataTables;
+use Illuminate\Support\Facades\Response;
 
 class CategoryController extends Controller
 {
@@ -12,7 +14,33 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        if (request()->ajax()) {
+            $categories = Category::orderBy('id', 'desc')->get();
+            $dataTables = DataTables::of($categories)
+                ->addColumn('editRowLink', function ($row) {
+                    return route('categories.edit', ['category' => $row->id]);
+                })
+                ->editColumn('status', function ($row) {
+                    $output = '';
+                    if ($row->status == 1) {
+                        $output = '<span class="badge badge-success">Active</span>';
+                    } else {
+                        $output = '<span class="badge badge-warning">Inactive</span>';
+                    }
+                    return $output;
+                })
+                ->removeColumn('id')
+                ->rawColumns(['status'])
+                ->make(true);
+
+            $content = $dataTables->getContent();
+            $contentLength = strlen($content);
+
+            return Response::make($content)
+                ->header('Content-Type', 'application/json')
+                ->header('Content-Length', $contentLength);
+        }
+        return view('backend.categories.index');
     }
 
     /**

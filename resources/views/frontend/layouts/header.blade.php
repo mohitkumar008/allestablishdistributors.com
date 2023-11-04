@@ -1,7 +1,7 @@
 <header class="whb-header whb-header_347630 whb-sticky-shadow whb-scroll-slide whb-sticky-real whb-hide-on-scroll">
     <div class="whb-main-header">
 
-        <div
+        {{-- <div
             class="whb-row whb-top-bar whb-not-sticky-row whb-with-bg whb-without-border whb-color-dark whb-hidden-mobile whb-flex-flex-middle">
             <div class="container">
                 <div class="whb-flex-row whb-top-bar-inner">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div
             class="whb-row whb-general-header whb-sticky-row whb-with-bg whb-without-border whb-color-dark whb-flex-flex-middle">
@@ -71,7 +71,7 @@
                 <div class="whb-flex-row whb-general-header-inner">
                     <div class="whb-column whb-col-left whb-visible-lg">
                         <div class="site-logo">
-                            <a href="https://woodmart.xtemos.com/furniture2/" class="wd-logo wd-main-logo"
+                            <a href="{{route('homepage')}}" class="wd-logo wd-main-logo"
                                 rel="home">
                                 <img width="210" height="40"
                                     src="https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-logo-black.svg"
@@ -85,7 +85,7 @@
 
                             <form role="search" method="get"
                                 class="searchform  wd-style-4 wd-cat-style-bordered woodmart-ajax-search"
-                                action="https://woodmart.xtemos.com/furniture2/" data-thumbnail="1" data-price="1"
+                                action="{{route('homepage')}}" data-thumbnail="1" data-price="1"
                                 data-post_type="product" data-count="20" data-sku="0" data-symbols_count="3">
                                 <input type="text" class="s" placeholder="Search for products"
                                     value="" name="s" aria-label="Search" title="Search for products"
@@ -112,13 +112,13 @@
 
                         <div
                             class="wd-header-my-account wd-tools-element wd-event-hover wd-with-username wd-design-7 wd-account-style-icon login-side-opener wd-with-wrap whb-d3rr7l2o7d965a6qvawk">
-                            <a href="https://woodmart.xtemos.com/furniture2/my-account/" title="My account">
+                            <a href="" title="My account">
                                 <span class="wd-tools-inner">
 
                                     {{-- <span class="wd-tools-icon">
                                     </span> --}}
                                     <span class="wd-tools-text">
-                                        Add Your Business 
+                                        GET DISTRIBUTORSHIP
                                     </span>
                                 </span>
                             </a>
@@ -127,7 +127,7 @@
 
                         {{-- <div
                             class="wd-header-my-account wd-tools-element wd-event-hover wd-with-username wd-design-7 wd-account-style-icon login-side-opener wd-with-wrap whb-d3rr7l2o7d965a6qvawk">
-                            <a href="https://woodmart.xtemos.com/furniture2/my-account/" title="My account">
+                            <a href="{{route('homepage')}}my-account/" title="My account">
                                 <span class="wd-tools-inner">
 
                                     <span class="wd-tools-icon">
@@ -156,7 +156,7 @@
                     </div>
                     <div class="whb-column whb-mobile-center whb-hidden-lg">
                         <div class="site-logo">
-                            <a href="https://woodmart.xtemos.com/furniture2/" class="wd-logo wd-main-logo"
+                            <a href="{{route('homepage')}}" class="wd-logo wd-main-logo"
                                 rel="home">
                                 <img width="210" height="40"
                                     src="https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-logo-black.svg"
@@ -183,7 +183,7 @@
                                 @foreach (getTrendingCategories() as $category)
                                     <li id="menu-item-29"
                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-29 item-level-0 menu-simple-dropdown wd-event-hover">
-                                        <a href="https://woodmart.xtemos.com/furniture2/product-category/chairs/"
+                                        <a href="{{route('listByCategory', ['slug' => $category->slug])}}"
                                             class="woodmart-nav-link"><img
                                                 src="https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/Chair.svg"
                                                 title="Chair" class="wd-nav-img" width="18" height="18"><span

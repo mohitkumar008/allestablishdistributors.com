@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use App\Models\Category;
+use Illuminate\Support\Str;
 use App\Models\Manufacturer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -66,6 +67,7 @@ class ManufacturerController extends Controller
         // dd($request->all());
         $request->validate([
             'first_name' => 'required',
+            'company_name' => 'required',
             'company_logo' => 'required|image',
             'mobile_number' => 'required',
             'email' => 'required|email',
@@ -76,6 +78,8 @@ class ManufacturerController extends Controller
         try {
             DB::beginTransaction();
             $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year"]);
+
+            $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
             $input['distributorship_location'] = $request->post('distributorship_location') ? implode(",", $request->post('distributorship_location')) : "";
             if ($request->hasFile('company_logo')) {
@@ -140,6 +144,7 @@ class ManufacturerController extends Controller
     {
         $request->validate([
             'first_name' => 'required',
+            'company_name' => 'required',
             'company_logo' => 'image',
             'mobile_number' => 'required',
             'email' => 'required|email',
@@ -150,6 +155,7 @@ class ManufacturerController extends Controller
         try {
             DB::beginTransaction();
             $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year"]);
+            $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
             $input['distributorship_location'] = $request->post('distributorship_location') ? implode(",", $request->post('distributorship_location')): "";
             if ($request->hasFile('company_logo')) {

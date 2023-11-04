@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ManufacturerController;
 use App\Http\Controllers\ProfileController;
@@ -20,12 +21,15 @@ Route::get('/', [FrontendController::class, 'index'])->name('homepage');
 
 Route::get('/category/{slug}', [FrontendController::class, 'listByCategory'])->name('listByCategory');
 
+Route::get('/distributor/{slug}', [FrontendController::class, 'manufacturerDetails'])->name('manufacturerDetails');
+
 
 Route::middleware('auth')->prefix('v2')->group(function () {
     Route::get('/dashboard', function () {
         return view('backend.manufacturers.index');
     })->name('dashboard');
     Route::resource('manufacturers', ManufacturerController::class);
+    Route::resource('categories', CategoryController::class);
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');

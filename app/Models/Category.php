@@ -18,4 +18,8 @@ class Category extends Model
     public function scopeTrending($query) : Builder {
         return $query->where('trending', 1);
     }
+
+    public function manufacturers(){
+        return $this->hasMany(Manufacturer::class);
+    }
 }

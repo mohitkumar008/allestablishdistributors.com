@@ -2,18 +2,20 @@
 
 @section('head')
     <link rel="stylesheet"
-        href="https://woodmart.b-cdn.net/furniture2/wp-content/cache/min/11/189775f9f516a438ce90e7585aa3167d.css"
+        href="https://woodmart.b-cdn.net/furniture2/wp-content/cache/min/11/562a9d5f86060963a5a27fa90471ffd8.css"
         media="all" data-minify="1" />
-    <link rel="canonical" href="https://woodmart.xtemos.com/furniture2/product-category/armchairs/" />
-    <link rel="next" href="https://woodmart.xtemos.com/furniture2/product-category/armchairs/page/2/" />
+    <link rel="canonical" href="https://woodmart.xtemos.com/furniture2/showrooms/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Armchairs Archives - Furniture 2" />
-    <meta property="og:url" content="https://woodmart.xtemos.com/furniture2/product-category/armchairs/" />
+    <meta property="og:title" content="Showrooms - Furniture 2" />
+    <meta property="og:url" content="https://woodmart.xtemos.com/furniture2/showrooms/" />
     <meta property="og:site_name" content="Furniture 2" />
+    <meta property="article:modified_time" content="2023-05-31T14:54:44+00:00" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:label1" content="Est. reading time" />
+    <meta name="twitter:data1" content="4 minutes" />
     <script type="application/ld+json"
-		class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/","url":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/","name":"Armchairs Archives - Furniture 2","isPartOf":{"@id":"https://woodmart.xtemos.com/furniture2/#website"},"primaryImageOfPage":{"@id":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/#primaryimage"},"image":{"@id":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/#primaryimage"},"thumbnailUrl":"https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-armchairs-prod-16-1.jpg","breadcrumb":{"@id":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/#breadcrumb"},"inLanguage":"en-US"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/#primaryimage","url":"https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-armchairs-prod-16-1.jpg","contentUrl":"https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-armchairs-prod-16-1.jpg","width":700,"height":800},{"@type":"BreadcrumbList","@id":"https://woodmart.xtemos.com/furniture2/product-category/armchairs/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://woodmart.xtemos.com/furniture2/"},{"@type":"ListItem","position":2,"name":"Armchairs"}]},{"@type":"WebSite","@id":"https://woodmart.xtemos.com/furniture2/#website","url":"https://woodmart.xtemos.com/furniture2/","name":"Furniture 2","description":"Multipurpose WooCommerce Electronics Theme","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://woodmart.xtemos.com/furniture2/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://woodmart.xtemos.com/furniture2/showrooms/","url":"https://woodmart.xtemos.com/furniture2/showrooms/","name":"Showrooms - Furniture 2","isPartOf":{"@id":"https://woodmart.xtemos.com/furniture2/#website"},"datePublished":"2023-04-03T11:49:04+00:00","dateModified":"2023-05-31T14:54:44+00:00","breadcrumb":{"@id":"https://woodmart.xtemos.com/furniture2/showrooms/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://woodmart.xtemos.com/furniture2/showrooms/"]}]},{"@type":"BreadcrumbList","@id":"https://woodmart.xtemos.com/furniture2/showrooms/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://woodmart.xtemos.com/furniture2/"},{"@type":"ListItem","position":2,"name":"Showrooms"}]},{"@type":"WebSite","@id":"https://woodmart.xtemos.com/furniture2/#website","url":"https://woodmart.xtemos.com/furniture2/","name":"Furniture 2","description":"Multipurpose WooCommerce Electronics Theme","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://woodmart.xtemos.com/furniture2/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
     <!-- / Yoast SEO plugin. -->
 
 
@@ -24,11 +26,6 @@
         href="https://woodmart.xtemos.com/furniture2/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Furniture 2 &raquo; Comments Feed"
         href="https://woodmart.xtemos.com/furniture2/comments/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Furniture 2 &raquo; Armchairs Category Feed"
-        href="https://woodmart.xtemos.com/furniture2/product-category/armchairs/feed/" />
-
-
-
     <style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
         .safe-svg-cover {
             text-align: center
@@ -53,6 +50,54 @@
             visibility: visible;
         }
     </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <link rel='stylesheet' id='xts-google-fonts-css'
         href='https://fonts.googleapis.com/css?family=Work+Sans%3A400%2C600%7CUrbanist%3A400%2C600%2C700%2C800%7CLato%3A400%2C700&#038;display=swap&#038;ver=7.3.0'
@@ -91,12 +136,16 @@
         id='wd-scrollbar-js'></script>
     <script></script>
     <link rel="https://api.w.org/" href="https://woodmart.xtemos.com/furniture2/wp-json/" />
-    <link rel="alternate" type="application/json"
-        href="https://woodmart.xtemos.com/furniture2/wp-json/wp/v2/product_cat/21" />
+    <link rel="alternate" type="application/json" href="https://woodmart.xtemos.com/furniture2/wp-json/wp/v2/pages/20" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
         href="https://woodmart.xtemos.com/furniture2/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.3" />
     <meta name="generator" content="WooCommerce 8.1.1" />
+    <link rel='shortlink' href='https://woodmart.xtemos.com/furniture2/?p=20' />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://woodmart.xtemos.com/furniture2/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwoodmart.xtemos.com%2Ffurniture2%2Fshowrooms%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://woodmart.xtemos.com/furniture2/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwoodmart.xtemos.com%2Ffurniture2%2Fshowrooms%2F&#038;format=xml" />
     <meta name="generator" content="Site Kit by Google 1.107.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <noscript>
@@ -111,8 +160,193 @@
 
     </style>
     <style data-type="woodmart_shortcodes-custom-css">
-        .wd-rs-6436b8d26e9e4.wd-list {
-            --li-mb: 10px;
+        .wd-rs-643e78a7e6e80 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e78bc02410 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e78d0d83e8 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e78dfc0432 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e78ed2fe56 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e790032a34 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e7919c791a {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e7928ee911 {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-643e794207aae {
+            --wd-brd-radius: 0px;
+        }
+
+        .wd-rs-64775f4625796.wd-collapsible-content>.vc_column-inner {
+            max-height: 324px;
+        }
+
+        .wd-rs-64775f4625796.wd-collapsible-content:not(.wd-opened)>.vc_column-inner>.wpb_wrapper:after {
+            color: rgb(243, 242, 238);
+        }
+
+        @media (max-width: 1199px) {
+            .wd-rs-64775f4625796.wd-collapsible-content>.vc_column-inner {
+                max-height: 200px;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .website-wrapper .wd-rs-64775fa4a23c6 {
+                margin-top: 20px !important;
+            }
+
+            .website-wrapper .wd-rs-64775f231c2ea {
+                margin-bottom: 80px !important;
+            }
+
+            .website-wrapper .wd-rs-64775f3b7ac15 {
+                margin-bottom: 80px !important;
+            }
+
+            #wd-6475f0a223411 .woodmart-title-container {
+                line-height: 36px;
+                font-size: 26px;
+            }
+
+            #wd-6475f0b42eab2 .woodmart-title-container {
+                line-height: 36px;
+                font-size: 26px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .website-wrapper .wd-rs-64775fa4a23c6 {
+                margin-top: 0px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .website-wrapper .wd-rs-64775f231c2ea {
+                margin-bottom: 60px !important;
+            }
+
+            .website-wrapper .wd-rs-64775fad44e18 {
+                margin-bottom: 0px !important;
+            }
+
+            .website-wrapper .wd-rs-64775f3b7ac15 {
+                margin-bottom: 60px !important;
+            }
+
+            .website-wrapper .wd-rs-643800be4514c>.vc_column-inner {
+                margin-bottom: 30px !important;
+            }
+
+            #wd-6475f0a223411 .woodmart-title-container {
+                line-height: 32px;
+                font-size: 22px;
+            }
+
+            .website-wrapper .wd-rs-643800d8884d5>.vc_column-inner {
+                margin-bottom: 30px !important;
+            }
+
+            #wd-6475f0b42eab2 .woodmart-title-container {
+                line-height: 32px;
+                font-size: 22px;
+            }
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1685544874773 {
+            margin-top: 60px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1685544746917 {
+            margin-bottom: 100px !important;
+        }
+
+        .vc_custom_1685544882092 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1685544772129 {
+            margin-bottom: 100px !important;
+        }
+
+        .vc_custom_1681815730286 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815745610 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815766023 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815780543 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815793525 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815929192 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681133763495 {
+            padding-top: 0px !important;
+        }
+
+        .vc_custom_1685544737740 {
+            margin-bottom: 0px !important;
+        }
+
+        .vc_custom_1681815813889 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815838872 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815853488 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815878914 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681815943096 {
+            margin-bottom: 20px !important;
+        }
+
+        .vc_custom_1681133763495 {
+            padding-top: 0px !important;
+        }
+
+        .vc_custom_1685544762195 {
+            margin-bottom: 0px !important;
         }
     </style><noscript>
         <style>
@@ -332,7 +566,7 @@
 
         .page-title-default {
             background-color: rgb(174, 182, 161);
-            /* background-image: url(https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-pt-def-opt.jpg); */
+            background-image: url(https://woodmart.b-cdn.net/furniture2/wp-content/uploads/sites/11/2023/04/wd-furniture-pt-def-opt.jpg);
             background-size: cover;
             background-position: center top;
         }
@@ -595,346 +829,225 @@
 @section('content')
     <div class="container">
         <div class="row content-layout-wrapper align-items-start">
-            <div class="site-content shop-content-area col-12 content-with-products wd-builder-on" role="main">
-                <style data-type="vc_shortcodes-custom-css">
-                    .vc_custom_1685617726655 {
-                        margin-top: -40px !important;
-                        margin-bottom: 30px !important;
-                    }
 
-                    .vc_custom_1681139560300 {
-                        margin-right: -10px !important;
-                        margin-bottom: 60px !important;
-                        margin-left: -10px !important;
-                    }
+            <div class="site-content col-lg-12 col-12 col-md-12" role="main">
 
-                    .vc_custom_1681138709416 {
-                        padding-top: 0px !important;
-                    }
+                <article id="post-20" class="post-20 page type-page status-publish hentry">
 
-                    .vc_custom_1681138726098 {
-                        margin-bottom: 0px !important;
-                    }
+                    <div class="entry-content">
+                        <section class="wpb-content-wrapper">
+                            <div class="vc_row wpb_row vc_row-fluid vc_custom_1685544874773 wd-rs-64775fa4a23c6"
+                                style="margin-top: 0!important">
+                                <div class="wpb_column vc_column_container vc_col-sm-7 wd-rs-643405f0de2ad">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div id="wd-6475f0a223411"
+                                                class="title-wrapper wd-wpb set-mb-s reset-last-child  wd-rs-6475f0a223411 wd-title-color-default wd-title-style-default text-left  wd-underline-colored">
 
-                    .vc_custom_1681139479556 {
-                        padding-top: 0px !important;
-                        padding-right: 10px !important;
-                        padding-left: 10px !important;
-                    }
+                                                <div class="liner-continer">
+                                                    <h4
+                                                        class="woodmart-title-container title  wd-font-weight- wd-fontsize-xxxl">
+                                                        {{ $manufacturer->company_name }}</h4>
+                                                </div>
 
-                    .vc_custom_1681139542069 {
-                        padding-right: 10px !important;
-                        padding-left: 10px !important;
-                    }
-
-                    .vc_custom_1681396793012 {
-                        margin-bottom: 20px !important;
-                        padding-top: 20px !important;
-                        padding-right: 20px !important;
-                        padding-bottom: 20px !important;
-                        padding-left: 20px !important;
-                        background-color: #ffffff !important;
-                        border-radius: 10px !important;
-                    }
-
-                    .vc_custom_1681396819612 {
-                        margin-bottom: 0px !important;
-                    }
-
-                    .vc_custom_1681138811146 {
-                        margin-bottom: 20px !important;
-                    }
-
-                    .vc_custom_1645450529811 {
-                        margin-bottom: 15px !important;
-                    }
-
-                    .vc_custom_1653978035648 {
-                        padding-top: 0px !important;
-                    }
-
-                    .vc_custom_1681138804708 {
-                        padding-top: 0px !important;
-                    }
-
-                    .vc_custom_1685451177048 {
-                        margin-bottom: 0px !important;
-                    }
-
-                    .vc_custom_1649771534702 {
-                        margin-right: 20px !important;
-                        margin-bottom: 0px !important;
-                    }
-
-                    .vc_custom_1653977959986 {
-                        margin-right: 20px !important;
-                        margin-bottom: 0px !important;
-                    }
-
-                    .vc_custom_1685024939837 {
-                        margin-right: 20px !important;
-                        margin-bottom: 0px !important;
-                    }
-
-                    .vc_custom_1681139225248 {
-                        margin-bottom: 0px !important;
-                    }
-
-                    .wd-rs-64381441ee379 {
-                        --wd-img-height: 520px;
-                    }
-
-                    .wd-rs-6295b3ae6abff>.vc_column-inner>.wpb_wrapper {
-                        align-items: center;
-                        justify-content: flex-start
-                    }
-
-                    .wd-rs-64342471f3b8b>.vc_column-inner>.wpb_wrapper {
-                        align-items: center;
-                        justify-content: flex-end
-                    }
-
-                    .wd-rs-6475f1a392a22 {
-                        width: auto !important;
-                        max-width: auto !important;
-                    }
-
-                    .wd-rs-625583ff5f76a {
-                        width: auto !important;
-                        max-width: auto !important;
-                    }
-
-                    .wd-rs-6295b3632e35b {
-                        width: auto !important;
-                        max-width: auto !important;
-                    }
-
-                    .wd-rs-646f70a62978b {
-                        width: auto !important;
-                        max-width: auto !important;
-                    }
-
-                    .wd-rs-64342611bdcbe {
-                        width: auto !important;
-                        max-width: auto !important;
-                    }
-
-                    .wd-rs-64775c83ea933.wd-collapsible-content>.vc_column-inner {
-                        max-height: 324px;
-                    }
-
-                    .wd-rs-64775c83ea933.wd-collapsible-content:not(.wd-opened)>.vc_column-inner>.wpb_wrapper:after {
-                        color: rgb(243, 242, 238);
-                    }
-
-                    @media (max-width: 1199px) {
-                        .wd-rs-64342471f3b8b>.vc_column-inner>.wpb_wrapper {
-                            justify-content: space-between
-                        }
-
-                        .wd-rs-64775c83ea933.wd-collapsible-content>.vc_column-inner {
-                            max-height: 200px;
-                        }
-                    }
-
-                    #wd-64381441ee379 .wrapper-content-banner {
-                        background-color: #63848c;
-                    }
-
-                    @media (max-width: 1199px) {
-                        .website-wrapper .wd-rs-64787c24e083f {
-                            margin-bottom: 10px !important;
-                        }
-
-                        .website-wrapper .wd-rs-6434275c68801 {
-                            margin-bottom: 40px !important;
-                        }
-
-                        .website-wrapper .wd-rs-643814347b539 {
-                            padding-right: 10px !important;
-                            padding-left: 10px !important;
-                        }
-
-                        .website-wrapper .wd-rs-6295b3ae6abff>.vc_column-inner {
-                            margin-bottom: 10px !important;
-                        }
-                    }
-
-                    @media (max-width: 767px) {
-                        .website-wrapper .wd-rs-6434275c68801 {
-                            margin-bottom: 20px !important;
-                        }
-                    }
-                </style>
-                <section class="wpb-content-wrapper">
-                    <div
-                        class="vc_row wpb_row vc_row-fluid vc_custom_1685617726655 wd-rs-64787c24e083f wd-section-stretch-content-no-pd">
-                        <div class="wpb_column vc_column_container vc_col-sm-12 wd-rs-6434240e08a53">
-                            <div class="vc_column-inner vc_custom_1681138709416">
-                                <div class="wpb_wrapper">
-                                    <div class="wd-page-title-el wd-wpb wd-rs-64342420d3c9e vc_custom_1681138726098">
-                                        <div class="page-title  page-title-default title-size-large title-design-default color-scheme-light with-back-btn title-shop">
-                                            <div class="container" style="justify-content: center;">
-
-                                                <h1 class="entry-title title">
-                                                    {{$category->title}} </h1>
+                                                <div
+                                                    class="title-after_title  set-cont-mb-s reset-last-child  wd-fontsize-s">
+                                                    {!! $manufacturer->company_profile !!}
+                                                </div>
 
 
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                                                    {{ $manufacturer->space_required }}
+                                                    <h4>Space Required</h4>
+                                                </div>
+                                                <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                                                    {{ $manufacturer->investment_range }}
+                                                    <h4>Investment Size</h4>
+                                                </div>
+                                                <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                                                    {{ $manufacturer->establishment_year }}
+                                                    <h4>Establishment Year</h4>
+                                                </div>
+                                                <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                                                    {{ $manufacturer->number_of_employees }}
+                                                    <h4>No. Of Distributor Outlets
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="wpb_column vc_column_container vc_col-sm-5 vc_col-lg-offset-1 vc_col-lg-4 wd-rs-643800be4514c">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div id="wd-643e79743bf65"
+                                                class="wd-text-block wd-wpb reset-last-child wd-rs-643e79743bf65 text-left color-title font-primary vc_custom_1681815929192">
+                                                <h3><strong>Address</strong></h3>
+                                                {!! $manufacturer->address !!}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="vc_column-inner p-3 bg-white rounded">
+                                        <div class="wpb_wrapper">
+                                            <h4 class="text-center">INQUIRY FORM
+                                            </h4>
+                                            <form method="post"
+                                                class="login woocommerce-form woocommerce-form-login"
+                                                action="https://woodmart.xtemos.com/furniture2/" style="display:none;">
+                                                <p
+                                                    class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-username">
+                                                    <select name="form_fields[name]" id="form-field-name"
+                                                        class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        required="required" aria-required="true">
+                                                        <option value="I want to appoint Distributors ">I want to appoint
+                                                            Distributors </option>
+                                                        <option value="I want to become a Distributor ">I want to become a
+                                                            Distributor </option>
+                                                        <option value="I want to appoint Franchisee ">I want to appoint Franchisee
+                                                        </option>
+                                                        <option value="I want to become a Franchisee ">I want to become a
+                                                            Franchisee </option>
+                                                        <option value="Other">Other</option>
+                                                    </select>
+                                                </p>
+                                                <p
+                                                    class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+                                                    <input class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        type="text" placeholder="Name" name="name" />
+                                                </p>
+                                                <p
+                                                    class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+                                                    <input class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        type="email" placeholder="Email" name="email" />
+                                                </p>
+                                                <p
+                                                    class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+                                                    <input class="woocommerce-Input woocommerce-Input--text input-text"
+                                                        type="text" placeholder="Mobile Number" name="mobile_number" />
+                                                </p>
+                                                <p
+                                                    class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+                                                    <textarea class="woocommerce-Input woocommerce-Input--text input-text" name="message" placeholder="Message"></textarea>
+                                                </p>
+        
+        
+                                                <p class="form-row">
+                                                    <input type="hidden" id="woocommerce-login-nonce"
+                                                        name="woocommerce-login-nonce" value="4eaa69579f" /><input type="hidden"
+                                                        name="_wp_http_referer" value="/furniture2/" />
+                                                    <input type="hidden" name="redirect"
+                                                        value="https://woodmart.xtemos.com/furniture2/" />
+                                                    <button type="submit"
+                                                        class="button woocommerce-button woocommerce-form-login__submit"
+                                                        name="send" value="Send">Send</button>
+                                                </p>
+        
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="vc_row wpb_row vc_row-fluid vc_custom_1685544746917 wd-rs-64775f231c2ea wd-section-stretch-content">
+                                <div class="wpb_column vc_column_container vc_col-sm-12 wd-rs-643410c0e88ce">
+                                    <div class="vc_column-inner vc_custom_1681133763495">
+                                        <div class="wpb_wrapper">
+                                            <div id="gallery_560"
+                                                class="wd-images-gallery wd-rs-64775f1e6181f wd-justify-center wd-items-middle view-carousel vc_custom_1685544737740 photoswipe-images wd-carousel-spacing-20 wd-carousel-container"
+                                                data-owl-carousel data-wrap="no" data-hide_pagination_control="yes"
+                                                data-hide_prev_next_buttons="no"
+                                                data-css=".vc_custom_1685544737740{margin-bottom: 0px !important;}"
+                                                data-desktop="3" data-tablet_landscape="3" data-tablet="2"
+                                                data-mobile="1">
+                                                <div
+                                                    class="gallery-images owl-carousel wd-owl owl-items-lg-3 owl-items-md-3 owl-items-sm-2 owl-items-xs-1">
+                                                    @if (!$manufacturer->products->isEmpty())
+                                                        @foreach ($manufacturer->products as $product)
+                                                            @if (Storage::exists($product->product_image))
+                                                                <div class="wd-gallery-item">
+                                                                    <a href="{{ Storage::url($product->product_image) }}"
+                                                                        data-elementor-open-lightbox="no" data-index="1"
+                                                                        data-width="1320" data-height="720">
+
+                                                                        <picture class="wd-gallery-image image-1"
+                                                                            decoding="async" loading="lazy">
+                                                                            <img width="1320" height="720"
+                                                                                src="{{ Storage::url($product->product_image) }}"
+                                                                                alt="" decoding="async"
+                                                                                loading="lazy" />
+                                                                        </picture>
+
+                                                                    </a>
+                                                                </div>
+                                                            @endif
+                                                        @endforeach
+                                                    @endif
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1681139560300 wd-rs-6434275c68801">
-          
-                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 wd-rs-6434275179458">
-                            <div class="vc_column-inner vc_custom_1681139542069">
-                                <div class="wpb_wrapper">
-                                    <div class="wd-wc-notices wd-wpb wd-rs-6213963c263b2">
-                                        <div class="woocommerce-notices-wrapper"></div>
-                                    </div>
-                                    <div class="wd-shop-product wd-wpb wd-rs-64787c53bf6e4">
-                                        <div class="wd-sticky-loader"><span class="wd-loader"></span></div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12 wd-rs-64775f4625796 ">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div id="wd-642d8b2c828bc"
+                                                class="wd-text-block wd-wpb reset-last-child wd-rs-642d8b2c828bc text-left ">
+                                                <h3>Product & Services
+                                                </h3>
+                                                <p>{{ $manufacturer->product_keywords }}</p>
 
+                                                <h3>USP of Products:</h3>
+                                                {!! $manufacturer->usp_of_products !!}
 
-                                        <div class="products elements-grid wd-products-holder  wd-spacing-20 grid-columns-3 pagination-pagination wd-stretch-cont-lg wd-stretch-cont-md wd-stretch-cont-sm align-items-start wd-products-with-bg row"
-                                            data-source="main_loop" data-min_price="" data-max_price=""
-                                            data-columns="3">
-
-
-                                            @if (!$category->manufacturers->isEmpty())
-                                                @foreach ($category->manufacturers as $manufacturer)
-                                                    <div class="product-grid-item wd-with-labels product wd-hover-buttons-on-hover  col-lg-3 col-md-4 col-6 first  type-product post-511 status-publish instock product_cat-armchairs has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-
-
-                                                        <div class="product-wrapper">
-                                                            <div class="product-element-top wd-quick-shop">
-                                                                <a href="{{route('manufacturerDetails', ['slug' => $manufacturer->company_slug])}}"
-                                                                    class="product-image-link">
-                                                                    @if (Storage::exists($manufacturer->company_logo))
-                                                                        <img width="350" height="400"
-                                                                            src="{{Storage::url($manufacturer->company_logo)}}"
-                                                                            class="attachment-350x400 size-350x400" alt=""
-                                                                            decoding="async" loading="lazy" />
-                                                                    @endif
-                                                                </a>
-                                                            </div>
-                                                            <div class="product-element-bottom">
-                                                                <div class="wd-product-header">
-                                                                    <h3 class="wd-entities-title"><a
-                                                                            href="{{route('manufacturerDetails', ['slug' => $manufacturer->company_slug])}}">{{$manufacturer->company_name}}</a>
-                                                                    </h3>
-                                                                </div>
-                                                                <div class="wd-product-cats">
-                                                                    <a href="https://woodmart.xtemos.com/furniture2/product-category/chairs/"
-                                                                        rel="tag">{{$manufacturer->category->title}}</a>
-                                                                    <div style="display: flex; justify-content:space-between;">
-                                                                        <span>Investment Range:</span> <span>{{$manufacturer->investment_range}}</span>
-                                                                    </div>
-                                                                    <div style="display: flex; justify-content:space-between;">
-                                                                        <span>Area Required (Sqft):</span> <span>{{$manufacturer->space_required}}</span>
-                                                                    </div>
-                                                                    <div style="display: flex; justify-content:space-between;">
-                                                                        <span>Distributors Requires:</span>
-                                                                        <span>{{$manufacturer->number_of_employees}}</span>
-                                                                    </div>
-                                                                    <div style="display: flex; justify-content:space-between;">
-                                                                        <span>Establishment Year:</span>
-                                                                        <span>{{$manufacturer->establishment_year}}</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="wrap-price">
-                                                                    <a href="{{route('manufacturerDetails', ['slug' => $manufacturer->company_slug])}}">
-                                                                        <span class="price">
-                                                                            <span class="woocommerce-Price-amount amount">
-                                                                                Know More
-                                                                            </span>
-                                                                        </span>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="wd-product-footer">
-                                                                    <div class="wd-add-btn">
-                                                                        <a href="?add-to-cart=125"
-                                                                            class="button product_type_simple add_to_cart_button add-to-cart-loop"
-                                                                            rel="nofollow"><span>Get
-                                                                                Distributorship</span></a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                @endforeach
+                                                <h3>Distributors Benefits:</h3>
+                                                {!! $manufacturer->distributors_benefits !!}
                                                 
-                                            @endif
-
+                                            </div>
                                         </div>
-                                        {{-- <div class="wd-loop-footer products-footer">
-                                            <nav class="woocommerce-pagination wd-pagination">
-                                                <ul class='page-numbers'>
-                                                    <li><span aria-current="page" class="page-numbers current">1</span>
-                                                    </li>
-                                                    <li><a class="page-numbers"
-                                                            href="https://woodmart.xtemos.com/furniture2/product-category/armchairs/page/2/">2</a>
-                                                    </li>
-                                                    <li><a class="next page-numbers"
-                                                            href="https://woodmart.xtemos.com/furniture2/product-category/armchairs/page/2/">&rarr;</a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div> --}}
-
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <h3>AGREEMENT TERMS & CONDITION:</h3>
+                                    <div class="elementor-widget-container">
+                                        <ul class="list-group">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Do you have a standard distributor agreement?
+                                              <span class="badge bg-primary rounded-pill">{{ $manufacturer->standard_distributorship_aggrement == 1 ? 'Yes' : 'No' }}</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                How long is the distributor term for?
+                                              <span class="badge bg-primary rounded-pill">{{ $manufacturer->distributorship_terms_for }}</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                Is the term renewable?
+                                              <span class="badge bg-primary rounded-pill">{{ $manufacturer->term_renewable == 1 ? 'Yes' : 'No' }}</span>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
-                    {{-- <div class="vc_row wpb_row vc_row-fluid">
-                        <div
-                            class="wpb_column vc_column_container vc_col-sm-12 wd-rs-64775c83ea933 wd-collapsible-content">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div id="wd-642d8b2c828bc"
-                                        class="wd-text-block wd-wpb reset-last-child wd-rs-642d8b2c828bc text-left ">
-                                        <h3>Online store with a wide selection of furniture and decor</h3>
-                                        <p>Furniture is an invariable attribute of any room. It is they who give
-                                            it the right atmosphere, making the space cozy and comfortable,
-                                            creating favorable conditions for productive work or helping to
-                                            relax after a hard day. More and more often, customers want to place
-                                            an order in an online store, when you can sit down at the computer
-                                            in your free time, arrange the furniture in the photo and calmly buy
-                                            the furniture you like. The online store has a large catalog of
-                                            furniture: both home and office furniture are available.</p>
-                                        <h3>Furniture production is a modern form of art</h3>
-                                        <p>Furniture manufacturers, as well as manufacturers of other home
-                                            goods, are full of amazing offers: we often come across both
-                                            standard mass-produced products and unique creations &#8211;
-                                            furniture from professional craftsmen, which will be appreciated by
-                                            true connoisseurs of beauty. We have selected for you the best
-                                            models from modern craftsmen who managed to ingeniously combine
-                                            elegance, quality and practicality in each product unit. Our
-                                            assortment includes products from proven companies. Who for many
-                                            years of continuous joint work did not give reason to doubt their
-                                            reliability and honesty. All of them guarantee the high quality of
-                                            their products, excellent operational characteristics, attractive
-                                            appearance of the products, a long period of use of the furniture,
-                                            as well as safety.</p>
-                                    </div>
-                                    <div id="wd-642c2a854b6b2"
-                                        class=" wd-rs-642c2a854b6b2  wd-button-wrapper text-left wd-collapsible-button">
-                                        <a
-                                            class="btn btn-color-primary btn-style-link btn-style-rectangle btn-size-default">Read
-                                            More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
-                </section>
-            </div>
+
+
+                </article><!-- #post -->
+
+
+
+            </div><!-- .site-content -->
+
+
+
         </div><!-- .main-page-wrapper -->
-    </div>
+    </div> <!-- end row -->
 @endsection
 
 @section('scripts')
@@ -961,15 +1074,6 @@
                     Shop </span>
             </a>
         </div>
-
-
-        <div class="wd-sidebar-opener wd-on-shop wd-tools-element wd-on-toolbar">
-            <a href="#" rel="nofollow">
-                <span class=" wd-toolbar-label">
-                    Filters </span>
-            </a>
-        </div>
-
         <div class="wd-header-wishlist wd-tools-element wd-design-5 without-product-count" title="My wishlist">
             <a href="https://woodmart.xtemos.com/furniture2/wishlist/">
                 <span class="wd-tools-icon">
@@ -1002,17 +1106,12 @@
             document.body.className = c;
         })();
     </script>
-    <script type="text/template" id="tmpl-variation-template">
-</script>
-    <script type="text/template" id="tmpl-unavailable-variation-template">
-<p>Sorry, this product is unavailable. Please choose a different combination.</p>
-</script>
     <style id='woodmart-inline-css-inline-css' type='text/css'>
-        #wd-6532f769c408d a {
+        #wd-6532f70dc0a50 a {
             background-color: rgba(224, 234, 240, 1);
         }
 
-        #wd-6532f769c408d a:hover {
+        #wd-6532f70dc0a50 a:hover {
             background-color: rgba(215, 229, 237, 1);
         }
     </style>
@@ -1431,9 +1530,6 @@
     <script type='text/javascript'
         src='https://woodmart.b-cdn.net/furniture2/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.0'
         id='wpb_composer_front_js-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/libs/pjax.min.js?ver=7.3.0'
-        id='wd-pjax-library-js'></script>
     <script type='text/javascript' id='woodmart-theme-js-extra'>
         /* <![CDATA[ */
         var woodmart_settings = {
@@ -1574,7 +1670,6 @@
             "is_rating_summary_filter_enabled": "1"
         };
         var woodmart_page_css = {
-            "wd-widget-price-filter-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-widget-price-filter.min.css",
             "wd-widget-wd-layered-nav-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-widget-wd-layered-nav.min.css",
             "wd-woo-mod-swatches-base-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-swatches-base.min.css",
             "wd-woo-mod-swatches-filter-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-swatches-filter.min.css",
@@ -1590,9 +1685,6 @@
             "wd-woo-el-track-order-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-el-track-order.min.css",
             "wd-woo-opt-free-progress-bar-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-opt-free-progress-bar.min.css",
             "wd-woo-mod-progress-bar-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-progress-bar.min.css",
-            "wd-widget-active-filters-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-widget-active-filters.min.css",
-            "wd-woo-shop-opt-shop-ajax-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-opt-shop-ajax.min.css",
-            "wd-woo-shop-builder-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-builder.min.css",
             "wd-header-base-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/header-base.min.css",
             "wd-mod-tools-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-tools.min.css",
             "wd-header-elements-base-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/header-el-base.min.css",
@@ -1607,46 +1699,22 @@
             "wd-header-cart-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/header-el-cart.min.css",
             "wd-widget-shopping-cart-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-widget-shopping-cart.min.css",
             "wd-widget-product-list-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-widget-product-list.min.css",
-            "wd-el-page-title-builder-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-page-title-builder.min.css",
-            "wd-woo-shop-page-title-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-page-title.min.css",
             "wd-page-title-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/page-title.min.css",
-            "wd-int-wpb-opt-off-canvas-column-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/int-wpb-opt-off-canvas-column.min.css",
-            "wd-filter-search-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-filter-search.min.css",
-            "wd-woo-mod-swatches-style-1-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-swatches-style-1.min.css",
-            "wd-woo-mod-swatches-style-2-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-swatches-style-2.min.css",
-            "wd-banner-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/wpb-el-banner.min.css",
-            "wd-banner-style-bg-cont-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-banner-style-bg-cont.min.css",
-            "wd-banner-hover-zoom-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-banner-hover-zoom.min.css",
-            "wd-mod-highlighted-text-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-highlighted-text.min.css",
-            "wd-off-canvas-sidebar-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/opt-off-canvas-sidebar.min.css",
-            "wd-el-off-canvas-column-btn-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-off-canvas-column-btn.min.css",
-            "wd-woo-shop-el-products-per-page-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-el-products-per-page.min.css",
-            "wd-woo-shop-el-products-view-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-el-products-view.min.css",
-            "wd-woo-shop-el-order-by-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-el-order-by.min.css",
-            "wd-woo-shop-el-active-filters-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-shop-el-active-filters.min.css",
-            "wd-sticky-loader-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-sticky-loader.min.css",
-            "wd-product-loop-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-product-loop.min.css",
-            "wd-product-loop-buttons-on-hover-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-product-loop-buttons-on-hover.min.css",
-            "wd-woo-mod-add-btn-replace-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-add-btn-replace.min.css",
-            "wd-categories-loop-default-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-categories-loop-default-old.min.css",
-            "wd-categories-loop-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-categories-loop-old.min.css",
-            "wd-woo-opt-stretch-cont-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-opt-stretch-cont.min.css",
-            "wd-woo-opt-products-bg-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-opt-products-bg.min.css",
-            "wd-woo-opt-grid-gallery-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-opt-grid-gallery.min.css",
-            "wd-woo-mod-product-labels-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/woo-mod-product-labels.min.css",
-            "wd-mod-star-rating-style-simple-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-star-rating-style-simple.min.css",
-            "wd-mfp-popup-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/lib-magnific-popup.min.css",
-            "wd-collapsible-content-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/wpb-opt-collapsible-content.min.css",
-            "wd-text-block-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-text-block.min.css",
-            "wd-footer-base-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/footer-base.min.css",
             "wd-section-title-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-section-title.min.css",
+            "wd-mod-highlighted-text-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-highlighted-text.min.css",
+            "wd-text-block-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-text-block.min.css",
+            "wd-photoswipe-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/lib-photoswipe.min.css",
+            "wd-owl-carousel-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/lib-owl-carousel.min.css",
+            "wd-image-gallery-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-gallery.min.css",
+            "wd-collapsible-content-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/wpb-opt-collapsible-content.min.css",
+            "wd-footer-base-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/footer-base.min.css",
             "wd-mod-nav-menu-label-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-nav-menu-label.min.css",
             "wd-social-icons-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/el-social-icons.min.css",
             "wd-scroll-top-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/opt-scrolltotop.min.css",
             "wd-header-my-account-sidebar-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/header-el-my-account-sidebar.min.css",
             "wd-promo-popup-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/opt-promo-popup.min.css",
-            "wd-bottom-toolbar-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/opt-bottom-toolbar.min.css",
-            "wd-mod-sticky-sidebar-opener-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/mod-sticky-sidebar-opener.min.css"
+            "wd-mfp-popup-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/lib-magnific-popup.min.css",
+            "wd-bottom-toolbar-css": "https:\/\/woodmart.xtemos.com\/furniture2\/wp-content\/themes\/woodmart\/css\/parts\/opt-bottom-toolbar.min.css"
         };
         var woodmart_variation_gallery_data = [];
         /* ]]> */
@@ -1657,21 +1725,6 @@
     <script type='text/javascript'
         src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/woocommerceNotices.min.js?ver=7.3.0'
         id='wd-woocommerce-notices-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/ajaxFilters.min.js?ver=7.3.0'
-        id='wd-ajax-filters-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/sortByWidget.min.js?ver=7.3.0'
-        id='wd-sort-by-widget-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/shopPageInit.min.js?ver=7.3.0'
-        id='wd-shop-page-init-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/clickOnScrollButton.min.js?ver=7.3.0'
-        id='wd-click-on-scroll-btn-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/backHistory.min.js?ver=7.3.0'
-        id='wd-back-history-js'></script>
     <script type='text/javascript' id='xtemos-demos-script-js-extra'>
         /* <![CDATA[ */
         var xtemos_system = {
@@ -1720,113 +1773,22 @@
         src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/onRemoveFromCart.min.js?ver=7.3.0'
         id='wd-on-remove-from-cart-js'></script>
     <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'>
-    </script>
+        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/libs/photoswipe-bundle.min.js?ver=7.3.0'
+        id='wd-photoswipe-bundle-library-js'></script>
     <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2'
-        id='jquery-ui-mouse-js'></script>
+        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/photoswipeImages.min.js?ver=7.3.0'
+        id='wd-photoswipe-images-js'></script>
     <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2'
-        id='jquery-ui-slider-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=8.1.1'
-        id='wc-jquery-ui-touchpunch-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js?ver=0.4.2'
-        id='accounting-js'></script>
-    <script type='text/javascript' id='wc-price-slider-js-extra'>
-        /* <![CDATA[ */
-        var woocommerce_price_slider_params = {
-            "currency_format_num_decimals": "0",
-            "currency_format_symbol": "$",
-            "currency_format_decimal_sep": ".",
-            "currency_format_thousand_sep": ",",
-            "currency_format": "%s%v"
-        };
-        /* ]]> */
-    </script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/plugins/woocommerce/assets/js/frontend/price-slider.min.js?ver=8.1.1'
-        id='wc-price-slider-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/woocommercePriceSlider.min.js?ver=7.3.0'
-        id='wd-woocommerce-price-slider-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/searchByFilters.min.js?ver=7.3.0'
-        id='wd-search-by-filters-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/elements/offCanvasColumnBtn.min.js?ver=7.3.0'
-        id='wd-off-canvas-colum-btn-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/shopLoader.min.js?ver=7.3.0'
-        id='wd-shop-loader-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/quickShop.min.js?ver=7.3.0'
-        id='wd-quick-shop-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/swatchesVariations.min.js?ver=7.3.0'
-        id='wd-swatches-variations-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/addToCartAllTypes.min.js?ver=7.3.0'
-        id='wd-add-to-cart-all-types-js'></script>
-    <script type='text/javascript' src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/underscore.min.js?ver=1.13.4'
-        id='underscore-js'></script>
-    <script type='text/javascript' id='wp-util-js-extra'>
-        /* <![CDATA[ */
-        var _wpUtilSettings = {
-            "ajax": {
-                "url": "\/furniture2\/wp-admin\/admin-ajax.php"
-            }
-        };
-        /* ]]> */
-    </script>
-    <script type='text/javascript' src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/wp-util.min.js?ver=6.3'
-        id='wp-util-js'></script>
-    <script type='text/javascript' id='wc-add-to-cart-variation-js-extra'>
-        /* <![CDATA[ */
-        var wc_add_to_cart_variation_params = {
-            "wc_ajax_url": "\/furniture2\/?wc-ajax=%%endpoint%%",
-            "i18n_no_matching_variations_text": "Sorry, no products matched your selection. Please choose a different combination.",
-            "i18n_make_a_selection_text": "Please select some product options before adding this product to your cart.",
-            "i18n_unavailable_text": "Sorry, this product is unavailable. Please choose a different combination."
-        };
-        /* ]]> */
-    </script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=8.1.1'
-        id='wc-add-to-cart-variation-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/imagesGalleryInLoop.min.js?ver=7.3.0'
-        id='wd-image-gallery-in-loop-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/actionAfterAddToCart.min.js?ver=7.3.0'
-        id='wd-action-after-add-to-cart-js'></script>
+        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/callPhotoSwipe.min.js?ver=7.3.0'
+        id='wd-photoswipe-js'></script>
+    <script type='text/javascript' src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/imagesloaded.min.js?ver=4.1.4'
+        id='imagesloaded-js'></script>
     <script type='text/javascript'
         src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/libs/owl.carousel.min.js?ver=7.3.0'
         id='wd-owl-library-js'></script>
     <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/libs/magnific-popup.min.js?ver=7.3.0'
-        id='wd-magnific-library-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/productImagesGallery.min.js?ver=7.3.0'
-        id='wd-product-images-gallery-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/quickView.min.js?ver=7.3.0'
-        id='wd-quick-view-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/libs/tooltips.min.js?ver=7.3.0'
-        id='wd-tooltips-library-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/btnsToolTips.min.js?ver=7.3.0'
-        id='wd-btns-tooltips-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/woocommerceQuantity.min.js?ver=7.3.0'
-        id='wd-woocommerce-quantity-js'></script>
-    <script type='text/javascript' src='https://woodmart.b-cdn.net/furniture2/wp-includes/js/imagesloaded.min.js?ver=4.1.4'
-        id='imagesloaded-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/productsLoadMore.min.js?ver=7.3.0'
-        id='wd-products-load-more-js'></script>
+        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/owlCarouselInit.min.js?ver=7.3.0'
+        id='wd-owl-carousel-js'></script>
     <script type='text/javascript'
         src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/elements/buttonShowMore.min.js?ver=7.3.0'
         id='wd-button-show-more-js'></script>
@@ -1854,16 +1816,12 @@
         src='https://woodmart.b-cdn.net/furniture2/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.1.1'
         id='wc-cart-fragments-js'></script>
     <script type='text/javascript'
+        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/libs/magnific-popup.min.js?ver=7.3.0'
+        id='wd-magnific-library-js'></script>
+    <script type='text/javascript'
         src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/promoPopup.min.js?ver=7.3.0'
         id='wd-promo-popup-js'></script>
     <script data-minify="1" type='text/javascript' defer
         src='https://woodmart.b-cdn.net/furniture2/wp-content/cache/min/11/furniture2/wp-content/plugins/mailchimp-for-wp/assets/js/forms-e6206cb4b6b78332d0b327fbc700d82e.js'
         id='mc4wp-forms-api-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/global/hiddenSidebar.min.js?ver=7.3.0'
-        id='wd-hidden-sidebar-js'></script>
-    <script type='text/javascript'
-        src='https://woodmart.b-cdn.net/furniture2/wp-content/themes/woodmart/js/scripts/wc/stickySidebarBtn.min.js?ver=7.3.0'
-        id='wd-sticky-sidebar-btn-js'></script>
-    <script></script>
 @endsection

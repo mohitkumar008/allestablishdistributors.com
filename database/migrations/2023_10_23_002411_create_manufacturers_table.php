@@ -25,6 +25,7 @@ return new class extends Migration
             $table->tinyInteger('verify_status')->nullable();
             $table->unsignedBigInteger('brand_category')->nullable();
             $table->string('company_name')->nullable();
+            $table->string('company_slug')->nullable();
             $table->string('states')->nullable();
             $table->tinyInteger('marketing_support')->nullable();
             $table->tinyInteger('sales_support')->nullable();

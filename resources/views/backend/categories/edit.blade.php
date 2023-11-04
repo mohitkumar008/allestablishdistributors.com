@@ -1,5 +1,4 @@
 @extends('backend.layouts.app')
-@section('manufacturers_nav', 'active')
 
 @section('css')
     <style>

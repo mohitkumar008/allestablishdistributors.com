@@ -1,6 +1,6 @@
 @extends('backend.layouts.app')
-@section('manufacturers_nav', 'active')
-    
+@section('categories_nav', 'active')
+
 @section('css')
     <!-- VENDOR CSS -->
     <link rel="stylesheet" href="{{ asset('backend/vendor/jquery-datatable/dataTables.bootstrap4.min.css') }}">
@@ -27,14 +27,14 @@
         <div class="block-header">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h2>Manufacturers</h2>
+                    <h2>Categories</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-dashboard"></i></a>
                         </li>
-                        <li class="breadcrumb-item active">Manufacturers</li>
+                        <li class="breadcrumb-item active">Categories</li>
                     </ul>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                {{-- <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="d-flex flex-row-reverse">
                         <div class="page_action">
                             <a href="{{ route('manufacturers.create') }}" class="btn btn-secondary">Create User</a>
@@ -43,7 +43,7 @@
 
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 
@@ -52,12 +52,10 @@
                 <div class="card">
                     <div class="body">
                         <div class="table-responsive">
-                            <table class="table table-bordered table-hover js-basic-example dataTable table-custom" id="manufacturors-table" data-href="{{ route('manufacturers.index') }}">
+                            <table class="table table-bordered table-hover js-basic-example dataTable table-custom" id="categories-table" data-href="{{ route('categories.index') }}">
                                 <thead>
                                     <tr>
-                                        <th>Company Name</th>
-                                        <th>Email</th>
-                                        <th>Phone Number</th>
+                                        <th>Title</th>
                                         <th>Status</th>
                                     </tr>
                                 </thead>
@@ -88,22 +86,14 @@
     <script src="{{ asset('backend/js/DataTableCRUD.js') }}"></script>
     <script>
         const tableColumns = [{
-                data: 'company_name',
-                name: 'company_name'
-            },
-            {
-                data: 'email',
-                name: 'email'
-            },
-            {
-                data: 'mobile_number',
-                name: 'mobile_number'
+                data: 'title',
+                name: 'title'
             },
             {
                 data: 'status',
                 name: 'status'
             }
         ];
-        const crud = new DataTableCRUD('#manufacturors-table', tableColumns);
+        const crud = new DataTableCRUD('#categories-table', tableColumns);
     </script>
 @endsection
