@@ -1,5 +1,4 @@
 @extends('backend.layouts.app')
-@section('manufacturers_nav', 'active')
 
 @section('css')
     <style>
@@ -387,25 +386,6 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4">
-                                    <div class="form-group">
-                                        <label>Verify Status</label>
-                                        <div class="">
-                                            <select name="verify_status"
-                                                class="form-control @error('verify_status') parsley-error @enderror">
-                                                <option value="Premium">Premium</option>
-                                                <option value="Verified">Verified</option>
-                                                <option value="Trusted">Trusted</option>
-                                            </select>
-                                        </div>
-                                        @error('verify_status')
-                                            <ul class="parsley-errors-list filled">
-                                                <li class="parsley-required">{{ $message }}</li>
-                                            </ul>
-                                        @enderror
-                                    </div>
-                                </div>
-
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label>Business Nature</label>
@@ -566,30 +546,11 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3">
-                                    <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="top" value="1"><span>Top Dealership</span></label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="featured" value="1"><span>Featured Dealership</span></label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="status" value="1"><span>Active</span></label>
-                                    </div>
-                                </div>
-
                             </div>
                             <hr>
                             <div class="row" id="productsSection">
                                 <div class="col-lg-12">
-                                    <h6>Products<button type="button" class="btn btn-primary" id="addProduct">+</button>
-                                    </h6>
+                                    <h6>Products<button type="button" class="btn btn-primary" id="addProduct">+</button></h6>
                                 </div>
                             </div>
                             <br>

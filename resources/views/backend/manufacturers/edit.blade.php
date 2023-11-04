@@ -630,6 +630,12 @@
                                     </div>
                                 </div>
 
+                                <div class="col-lg-3">
+                                    <div class="fancy-checkbox">
+                                        <label><input type="checkbox" name="status" value="1" {{$manufacturer->status == 1 ? "checked" : ""}}><span>Active</span></label>
+                                    </div>
+                                </div>
+
                             </div>
                             <hr>
                             <div class="row" id="productsSection">

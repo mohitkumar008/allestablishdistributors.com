@@ -17,9 +17,9 @@ class CategoryController extends Controller
         if (request()->ajax()) {
             $categories = Category::orderBy('id', 'desc')->get();
             $dataTables = DataTables::of($categories)
-                ->addColumn('editRowLink', function ($row) {
-                    return route('categories.edit', ['category' => $row->id]);
-                })
+                // ->addColumn('editRowLink', function ($row) {
+                //     return route('categories.edit', ['category' => $row->id]);
+                // })
                 ->editColumn('status', function ($row) {
                     $output = '';
                     if ($row->status == 1) {

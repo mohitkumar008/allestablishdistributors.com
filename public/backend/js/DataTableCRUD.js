@@ -58,6 +58,19 @@ class DataTableCRUD {
     }
 
     handleRowClick(row, data) {
+        let commentVisible = false;
+        if (data.expandRowLink) {
+            $(row).on('click', function (e) {
+                let tr = e.target.closest('tr');
+                if (commentVisible) {
+                    tr.nextElementSibling.remove();
+                    commentVisible = false;
+                } else {
+                    tr.insertAdjacentHTML('afterend', data.expandRowLink);
+                    commentVisible = true;
+                }
+            })
+        }
         if (data.editRowLink) {
             $(row).on('click', function () {
                 var linkUrl = data.editRowLink;

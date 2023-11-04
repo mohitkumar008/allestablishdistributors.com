@@ -3,7 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Lead;
+use App\Models\Manufacturer;
+use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
+use Yajra\DataTables\Facades\DataTables;
 
 class LeadController extends Controller
 {
@@ -12,7 +16,35 @@ class LeadController extends Controller
      */
     public function index()
     {
-        //
+        if (request()->ajax()) {
+            $leads = Lead::orderBy('id', 'desc')->get();
+            $dataTables = DataTables::of($leads)
+                ->addColumn('expandRowLink', function ($row) {
+                    $manufacturer = Manufacturer::find($row->manufacturer_id);
+                    $product = Product::find($row->product_id);
+                    return view('backend.leads.childtable', compact('row', 'manufacturer', 'product'))->render();
+                })
+                ->editColumn('status', function ($row) {
+                    $output = '';
+                    if ($row->status == 1) {
+                        $output = '<span class="badge badge-success">Active</span>';
+                    } else {
+                        $output = '<span class="badge badge-warning">Inactive</span>';
+                    }
+                    return $output;
+                })
+                ->removeColumn('id')
+                ->rawColumns(['status','expandRowLink'])
+                ->make(true);
+
+            $content = $dataTables->getContent();
+            $contentLength = strlen($content);
+
+            return Response::make($content)
+                ->header('Content-Type', 'application/json')
+                ->header('Content-Length', $contentLength);
+        }
+        return view('backend.leads.index');
     }
 
     /**
