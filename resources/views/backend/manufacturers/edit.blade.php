@@ -418,6 +418,25 @@
                                     </div>
                                 </div>
 
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label>Verify Status</label>
+                                        <div class="">
+                                            <select name="verify_status"
+                                                class="form-control @error('verify_status') parsley-error @enderror">
+                                                <option {{$manufacturer->verify_status == 1 ? "selected" : ""}} value="1">Premium</option>
+                                                <option {{$manufacturer->verify_status == 2 ? "selected" : ""}} value="2">Verified</option>
+                                                <option {{$manufacturer->verify_status == 3 ? "selected" : ""}} value="3">Trusted</option>
+                                            </select>
+                                        </div>
+                                        @error('verify_status')
+                                            <ul class="parsley-errors-list filled">
+                                                <li class="parsley-required">{{ $message }}</li>
+                                            </ul>
+                                        @enderror
+                                    </div>
+                                </div>
+
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label>Business Nature</label>
@@ -596,6 +615,18 @@
                                                 <li class="parsley-required">{{ $message }}</li>
                                             </ul>
                                         @enderror
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="fancy-checkbox">
+                                        <label><input type="checkbox" name="top" value="1" {{$manufacturer->top == 1 ? "checked" : ""}}><span>Top Dealership</span></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="fancy-checkbox">
+                                        <label><input type="checkbox" name="featured" value="1" {{$manufacturer->featured == 1 ? "checked" : ""}}><span>Featured Dealership</span></label>
                                     </div>
                                 </div>
 

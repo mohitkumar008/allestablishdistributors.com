@@ -40,7 +40,10 @@ class Manufacturer extends Model
         "establishment_year",
         "states",
         "status",
-        "business_nature"
+        "business_nature",
+        "verify_status",
+        "top",
+        "featured",
     ];
 
     public function category(){

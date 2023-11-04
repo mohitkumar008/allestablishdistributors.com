@@ -77,7 +77,7 @@ class ManufacturerController extends Controller
         ]);
         try {
             DB::beginTransaction();
-            $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year"]);
+            $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year", "verify_status", "top", "featured"]);
 
             $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
@@ -85,7 +85,7 @@ class ManufacturerController extends Controller
             if ($request->hasFile('company_logo')) {
                 $image = $request->file('company_logo');
                 $imageName = time() . '_' . rand(1111, 9999) . '_' . $image->getClientOriginalName();
-                $input['company_logo'] = $image->storeAs('public/uploads/', $imageName);
+                $input['company_logo'] = $image->storeAs('public/company_logo/', $imageName);
             }
 
             $manufacturer = Manufacturer::create($input);
@@ -101,7 +101,7 @@ class ManufacturerController extends Controller
                         $image = $request->file('product_image.' . $i);
                         if ($image) {
                             $imageName = time() . '_' . rand(1111, 9999) . '_' . $image->getClientOriginalName();
-                            $productInput['product_image'] = $image->storeAs('public/uploads/', $imageName);
+                            $productInput['product_image'] = $image->storeAs('public/product_images/', $imageName);
                         }
                     }
 
@@ -154,14 +154,17 @@ class ManufacturerController extends Controller
         ]);
         try {
             DB::beginTransaction();
-            $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year"]);
+            $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year", "verify_status"]);
+
+            $input['top'] = $request->top ?? 0;
+            $input['featured'] = $request->featured ?? 0;
             $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
             $input['distributorship_location'] = $request->post('distributorship_location') ? implode(",", $request->post('distributorship_location')): "";
             if ($request->hasFile('company_logo')) {
                 $image = $request->file('company_logo');
                 $imageName = time() . '_' . rand(1111, 9999) . '_' . $image->getClientOriginalName();
-                $input['company_logo'] = $image->storeAs('public/uploads/', $imageName);
+                $input['company_logo'] = $image->storeAs('public/company_logo/', $imageName);
             }
 
             $manufacturer->update($input);
@@ -177,7 +180,7 @@ class ManufacturerController extends Controller
                         $image = $request->file('product_image.' . $i);
                         if ($image) {
                             $imageName = time() . '_' . rand(1111, 9999) . '_' . $image->getClientOriginalName();
-                            $productInput['product_image'] = $image->storeAs('public/uploads/', $imageName);
+                            $productInput['product_image'] = $image->storeAs('public/product_images/', $imageName);
                         }
                     }
 

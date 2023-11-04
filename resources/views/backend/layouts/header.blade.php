@@ -121,11 +121,6 @@
                                 <i class="fa fa-dashboard"></i><span>Manufacturers</span>
                             </a>
                         </li>
-                        <li class="@yield('distributors_nav')">
-                            <a href="#Dashboard">
-                                <i class="fa fa-dashboard"></i><span>Distributors</span>
-                            </a>
-                        </li>
                         <li class="@yield('categories_nav')">
                             <a href="{{route('categories.index')}}">
                                 <i class="fa fa-dashboard"></i><span>Categories</span>

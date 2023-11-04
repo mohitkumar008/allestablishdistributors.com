@@ -2,8 +2,13 @@
 
 use App\Models\Category;
 
-function getTrendingCategories(){
-    $categories = Category::trending()->select('title', 'slug')->get();
+function getHeaderCategories(){
+    $categories = Category::with('children')->header()->select('id', 'title', 'slug')->get();
+    return $categories;
+}
+
+function getTopCategories(){
+    $categories = Category::with('children')->top()->select('id', 'title', 'slug')->get();
     return $categories;
 }
 

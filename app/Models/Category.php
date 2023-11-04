@@ -15,11 +15,25 @@ class Category extends Model
         return $query->where('status', 1);
     }
 
-    public function scopeTrending($query) : Builder {
-        return $query->where('trending', 1);
+    public function scopeHeader($query) : Builder {
+        return $query->where('header', 1);
+    }
+
+    public function scopeTop($query) : Builder {
+        return $query->where('top', 1);
     }
 
     public function manufacturers(){
         return $this->hasMany(Manufacturer::class);
+    }
+
+    public function children()
+    {
+        return $this->hasMany(Category::class, 'parent_id', 'id');
+    }
+
+    public function parent()
+    {
+        return $this->belongsTo(Category::class, 'parent_id', 'id');
     }
 }

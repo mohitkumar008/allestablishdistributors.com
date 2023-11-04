@@ -46,6 +46,8 @@ return new class extends Migration
             $table->text('company_profile')->nullable();
             $table->text('usp_of_products')->nullable();
             $table->text('address')->nullable();
+            $table->tinyInteger('top')->nullable();
+            $table->tinyInteger('featured')->nullable();
             $table->tinyInteger('status')->default(1);
             $table->timestamps();
         });

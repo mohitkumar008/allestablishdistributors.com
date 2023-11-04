@@ -19,10 +19,15 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [FrontendController::class, 'index'])->name('homepage');
 
-Route::get('/category/{slug}', [FrontendController::class, 'listByCategory'])->name('listByCategory');
+Route::get('/list-by-category/{slug}', [FrontendController::class, 'listByCategory'])->name('listByCategory');
 
-Route::get('/distributor/{slug}', [FrontendController::class, 'manufacturerDetails'])->name('manufacturerDetails');
+Route::get('/provider-details/{slug}', [FrontendController::class, 'manufacturerDetails'])->name('manufacturerDetails');
 
+Route::post('/send-requirement', [FrontendController::class, 'sendRequirement'])->name('sendRequirement');
+
+Route::get('/list-by-investment/{investment}', [FrontendController::class, 'listByInvestment'])->name('listByInvestment');
+Route::get('/list-by-state/{state}', [FrontendController::class, 'listByState'])->name('listByState');
+Route::post('/search', [FrontendController::class, 'search'])->name('search');
 
 Route::middleware('auth')->prefix('v2')->group(function () {
     Route::get('/dashboard', function () {
