@@ -10,7 +10,8 @@
                     </div>
                 </div>
                 <div class="col-md-8 visibleOnScroll">
-                    <form action="https://distributorschannel.com/search">
+                    <form action="{{route('search')}}" method="POST">
+@csrf
                         <div class="site-search pb-0">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search For Product Keyword..."
