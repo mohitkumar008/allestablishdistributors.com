@@ -69,7 +69,7 @@ label .valid_info{
 }
 
 .banner_discount {
-  padding: 0px 10px 10px 0;
+  /* padding: 0px 10px 10px 0; */
   position: relative;
 }
 
@@ -82,11 +82,11 @@ label .valid_info{
 
 
 .discnt_bottom {
-    width: 96%;
+    width: 100%;
     background: #fff;
     display: none;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     animation: animationname_dis .5s linear;
     transition: .5s ease-in-out;
     text-align: center;

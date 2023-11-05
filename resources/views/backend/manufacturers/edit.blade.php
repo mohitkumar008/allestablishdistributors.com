@@ -111,18 +111,6 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <label>Password</label>
-                                        <input type="password" name="password"
-                                            class="form-control @error('password') parsley-error @enderror" disabled>
-                                        @error('password')
-                                            <ul class="parsley-errors-list filled">
-                                                <li class="parsley-required">{{ $message }}</li>
-                                            </ul>
-                                        @enderror
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group">
                                         <label>Whatsapp Number</label>
                                         <input type="text"
                                             class="form-control @error('whatsapp_number') parsley-error @enderror"
@@ -627,6 +615,18 @@
                                 <div class="col-lg-3">
                                     <div class="fancy-checkbox">
                                         <label><input type="checkbox" name="featured" value="1" {{$manufacturer->featured == 1 ? "checked" : ""}}><span>Featured Dealership</span></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="fancy-checkbox">
+                                        <label><input type="checkbox" name="top_brands" value="1" {{$manufacturer->top_brands == 1 ? "checked" : ""}}><span>Top Brand</span></label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="fancy-checkbox">
+                                        <label><input type="checkbox" name="home_top_brands" value="1" {{$manufacturer->home_top_brands == 1 ? "checked" : ""}}><span>Top Brand (Homepage)</span></label>
                                     </div>
                                 </div>
 

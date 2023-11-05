@@ -20,7 +20,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [FrontendController::class, 'index'])->name('homepage');
 
+Route::get('/top-categories', [FrontendController::class, 'topCategories'])->name('topCategories');
+
 Route::get('/list-by-category/{slug}', [FrontendController::class, 'listByCategory'])->name('listByCategory');
+
+Route::get('/list-by-top-brands', [FrontendController::class, 'listByTopBrands'])->name('listByTopBrands');
+Route::get('/list-by-top-dealership', [FrontendController::class, 'listByTopDealership'])->name('listByTopDealership');
+Route::get('/list-by-featured-brand', [FrontendController::class, 'listByFeaturedBrand'])->name('listByFeaturedBrand');
 
 Route::get('/provider-details/{slug}', [FrontendController::class, 'manufacturerDetails'])->name('manufacturerDetails');
 

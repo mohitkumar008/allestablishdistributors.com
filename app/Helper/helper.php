@@ -12,6 +12,11 @@ function getTopCategories(){
     return $categories;
 }
 
+function getHomeTopCategories(){
+    $categories = Category::with('children')->homeTop()->select('id', 'title', 'slug')->get();
+    return $categories;
+}
+
 function getCategories($limit = null){
     $query = Category::active();
     if($limit){

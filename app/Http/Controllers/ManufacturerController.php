@@ -64,7 +64,6 @@ class ManufacturerController extends Controller
      */
     public function store(Request $request)
     {
-        // dd($request->all());
         $request->validate([
             'first_name' => 'required',
             'company_name' => 'required',
@@ -77,7 +76,7 @@ class ManufacturerController extends Controller
         ]);
         try {
             DB::beginTransaction();
-            $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year", "verify_status", "top", "featured"]);
+            $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year", "verify_status", "top", "featured", "top_brands", "home_top_brands"]);
 
             $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
@@ -158,6 +157,8 @@ class ManufacturerController extends Controller
 
             $input['top'] = $request->top ?? 0;
             $input['featured'] = $request->featured ?? 0;
+            $input['top_brands'] = $request->top_brands ?? 0;
+            $input['home_top_brands'] = $request->home_top_brands ?? 0;
             $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
             $input['distributorship_location'] = $request->post('distributorship_location') ? implode(",", $request->post('distributorship_location')): "";

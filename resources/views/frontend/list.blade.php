@@ -30,7 +30,7 @@
                         <div class="filter-heading d-block">
                             <h3>Top catogery</h3>
                             <ul>
-                                @foreach (getTopCategories() as $topCategory)
+                                @foreach (getHomeTopCategories() as $topCategory)
                                     <li>
                                         <a
                                             href="{{ route('listByCategory', ['slug' => $topCategory->slug]) }}">{!! $topCategory->title !!}</a>
@@ -44,52 +44,13 @@
                             <h3>Investment Renge</h3>
                             <ul>
                                 <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '25 K to 50 K']) }}">25 K to 50
-                                        K</a>
+                                    <a href="{{ route('listByInvestment', ['investment' => 'Under 5 Lacs']) }}">Under 5 Lacs</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '50 K to 1 Lac']) }}">50 K to 1
-                                        Lac</a>
+                                    <a href="{{ route('listByInvestment', ['investment' => '5 Lacs - 20 Lacs']) }}">5 Lacs - 20 Lacs</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '1 Lac to 2 Lacs']) }}">1 Lac to
-                                        2 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '2 Lacs to 3 Lacs']) }}">2 Lacs
-                                        to 3 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '3 Lacs to 5 Lacs']) }}">3 Lacs
-                                        to 5 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '5 Lacs to 7 Lacs']) }}">5 Lacs
-                                        to 7 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '7 Lacs to 10 Lacs']) }}">7 Lacs
-                                        to 10 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '10 Lacs to 15 Lacs']) }}">10
-                                        Lacs to 15 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '15 Lacs to 20 Lacs']) }}">15
-                                        Lacs to 20 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '20 Lacs to 30 Lacs']) }}">20
-                                        Lacs to 30 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '30 Lacs to 40 Lacs']) }}">30
-                                        Lacs to 40 Lacs</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('listByInvestment', ['investment' => '40 Lacs to 50 Lacs']) }}">40
-                                        Lacs to 50 Lacs</a>
+                                    <a href="{{ route('listByInvestment', ['investment' => '20 Lacs - 50 Lacs']) }}">20 Lacs - 50 Lacs</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('listByInvestment', ['investment' => 'Above 50 Lacs']) }}">Above 50

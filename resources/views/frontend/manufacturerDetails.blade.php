@@ -8,9 +8,9 @@
                         <h3 class="mb-0">{{ $manufacturer->company_name }}</h3>
                         <span class="p-2">
                             <b>GST No: </b>{{ $manufacturer->gst_number }} </span>
-                        <a href="javascript:void(0)" data-toggle="modal" data-target="#SendEnquiresModel"
-                            data-product-id="0" data-manufacturer-id="{{ $manufacturer->id }}"
-                            onclick="SetDistributorshipAttr(this)" class="btn btn-theme">Enquiry now</a>
+                        <a href="javascript:void(0)" data-toggle="modal" data-target="#SendEnquiresModel" data-product-id="0"
+                            data-manufacturer-id="{{ $manufacturer->id }}" onclick="SetDistributorshipAttr(this)"
+                            class="btn btn-theme">Enquiry now</a>
                     </div>
                 </div>
             </div>
@@ -266,7 +266,26 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            {!! $manufacturer->address !!}
+                            <table class="table table-bordered table-hover">
+                                <tbody>
+                                    <tr>
+                                        <td>Name</td>
+                                        <td>{{$manufacturer->first_name." ".$manufacturer->last_name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Company Name</td>
+                                        <td>{{$manufacturer->company_name}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Address</td>
+                                        <td>{!! $manufacturer->address !!}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mobile</td>
+                                        <td>8266049844</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                         <div class="col-12 text-center">
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#SendEnquiresModel"

@@ -16,11 +16,15 @@ class Category extends Model
     }
 
     public function scopeHeader($query) : Builder {
-        return $query->where('header', 1);
+        return $query->where('header_category', 1);
     }
 
     public function scopeTop($query) : Builder {
-        return $query->where('top', 1);
+        return $query->where('top_category', 1);
+    }
+
+    public function scopeHomeTop($query) : Builder {
+        return $query->where('home_top_category', 1);
     }
 
     public function manufacturers(){

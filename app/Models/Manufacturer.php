@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 class Manufacturer extends Model
@@ -44,6 +45,8 @@ class Manufacturer extends Model
         "verify_status",
         "top",
         "featured",
+        'top_brands',
+        'home_top_brands'
     ];
 
     public function category(){
@@ -52,5 +55,21 @@ class Manufacturer extends Model
 
     public function products(){
         return $this->hasMany(Product::class);
+    }
+
+    public function scopeTopDealerShip($query) : Builder {
+        return $query->where('top', 1);
+    }
+
+    public function scopeFeaturedBrand($query) : Builder {
+        return $query->where('featured', 1);
+    }
+
+    public function scopeTopBrand($query) : Builder {
+        return $query->where('top_brands', 1);
+    }
+
+    public function scopeHomeTopBrand($query) : Builder {
+        return $query->where('home_top_brands', 1);
     }
 }

@@ -17,8 +17,9 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug')->unique();
             $table->string('logo')->nullable();
-            $table->tinyInteger('header')->default(0);
-            $table->tinyInteger('top')->default(0);
+            $table->tinyInteger('header_category')->default(0);
+            $table->tinyInteger('top_category')->default(0);
+            $table->tinyInteger('home_top_category')->default(0);
             $table->tinyInteger('status')->default(1);
             $table->timestamps();
         });

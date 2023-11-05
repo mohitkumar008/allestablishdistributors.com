@@ -48,6 +48,8 @@ return new class extends Migration
             $table->text('address')->nullable();
             $table->tinyInteger('top')->nullable();
             $table->tinyInteger('featured')->nullable();
+            $table->tinyInteger('top_brands')->nullable();
+            $table->tinyInteger('home_top_brands')->nullable();
             $table->tinyInteger('status')->default(1);
             $table->timestamps();
         });
