@@ -10,8 +10,8 @@
                     </div>
                 </div>
                 <div class="col-md-8 visibleOnScroll">
-                    <form action="{{route('search')}}" method="POST">
-@csrf
+                    <form action="{{ route('search') }}" method="POST">
+                        @csrf
                         <div class="site-search pb-0">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search For Product Keyword..."
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <form action="{{route('search')}}" method="post">
+                    <form action="{{ route('search') }}" method="post">
                         @csrf
                         <div class="site-search pb-0">
                             <div class="input-group">
@@ -144,7 +144,8 @@
                         Categories</a>
                     <hr>
                     @foreach (getHeaderCategories() as $topCategory)
-                        <a href="{{route('listByCategory', ['slug' => $topCategory->slug])}}">{!!$topCategory->title!!}</a>
+                        <a
+                            href="{{ route('listByCategory', ['slug' => $topCategory->slug]) }}">{!! $topCategory->title !!}</a>
                     @endforeach
                 </div>
             </div>
@@ -155,7 +156,8 @@
         <div class="row">
             <div class="col-12 mt-2">
                 <div class="">
-                    <form action="https://distributorschannel.com/search">
+                    <form action="{{ route('search') }}" method="POST">
+                        @csrf
                         <div class="site-search pb-0">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search For Product Keyword..."

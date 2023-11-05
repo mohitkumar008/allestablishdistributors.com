@@ -8,15 +8,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="YLGjzioa5QUcTvJJD2vki4zN2jqSdcgZjDD4HKLeFDY">
-    <link rel="icon" href="https://distributorschannel.com/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" type="image/x-icon" href="https://distributorschannel.com/favicon.ico">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
-    <title>Distributors &amp; Dealers Opportunity in India - Distributors Channel</title>
-    <meta name="author" content="Anil kumar Gupta">
+    <title>Distributors &amp; Dealers Opportunity in India - All Establish Destributors</title>
+    <meta name="author" content="Mohit Kumar">
     <meta name="description"
-        content="Distributors Channel is an unique platform to appoint distributors, apply for distributorship and become a wholesale distributor. Dealership  opportunities in India.">
+        content="All Establish Destributors is an unique platform to appoint distributors, apply for distributorship and become a wholesale distributor. Dealership  opportunities in India.">
     <meta name="keywords"
-        content="distributorship opportunities, appoint distributors, apply for distributorship, become a wholesale distributor, take distributorship, take franchise, companies who need distributors, distributors channel, distributorship, get distributorship">
+        content="distributorship opportunities, appoint distributors, apply for distributorship, become a wholesale distributor, take distributorship, take franchise, companies who need distributors, All Establish Destributors, distributorship, get distributorship">
 
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
@@ -189,7 +189,7 @@
 
         .login_popup_modal .modal-content {
             background-color: #fff !important;
-            background: url(https://distributorschannel.com/image/bgg.jpg);
+            background: url({{asset('frontend/image/bgg.jpg')}});
             background-size: 100% 100%;
             width: 75%;
         }
@@ -278,7 +278,7 @@
     <script src="{{ asset('frontend/js/jquery3.2.js') }}"></script>
     <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('frontend/js/popper.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/custome.js') }}"></script>
+    <script src="{{ asset('frontend/js/custom.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
         integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
