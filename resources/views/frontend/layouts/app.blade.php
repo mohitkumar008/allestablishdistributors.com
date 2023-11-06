@@ -7,7 +7,7 @@
     <meta http-equiv="pragma" content="no-cache">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="YLGjzioa5QUcTvJJD2vki4zN2jqSdcgZjDD4HKLeFDY">
+    <meta name="google-site-verification" content="qAWgs0nt0IxG_EA9nJdB3rpLixL_WKUAlVzTbYtJ3c0" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
