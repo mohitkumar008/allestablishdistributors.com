@@ -13,7 +13,7 @@ class FrontendController extends Controller
     public function index()
     {
         $getTopCategories = Category::homeTop()->get();
-        $getTopBrands = Manufacturer::topBrand()->get();
+        $getTopBrands = Manufacturer::homeTopBrand()->get();
         $topManufacturers = Manufacturer::where('top', 1)->limit(8)->get();
         $featuredManufacturers = Manufacturer::where('featured', 1)->limit(24)->get();
         return view('frontend.index', compact('getTopCategories', 'topManufacturers', 'featuredManufacturers', 'getTopBrands'));
@@ -38,7 +38,7 @@ class FrontendController extends Controller
     {
         $headerTitle = 'Listing By Top Brands';
         $otherCategories = Category::whereNull('parent_id')->select('id', 'title', 'slug')->get();
-        $manufacturers = Manufacturer::where('top_brands', 1)->get();
+        $manufacturers = Manufacturer::topBrand()->get();
         return view('frontend.list', compact('headerTitle', 'otherCategories', 'manufacturers'));
     }
 
