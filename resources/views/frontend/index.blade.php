@@ -188,7 +188,7 @@
             <div class="row">
                 <div class="col-12 p-0">
                     <div class="heading_title">
-                        <h5>distributorship by top brands</h5>
+                        <h5>distributorship by trending brands</h5>
                         <a class="btn btn-show-more" href="{{ route('listByTopBrands') }}"> Show more</a>
                     </div>
                 </div>
@@ -214,7 +214,7 @@
             <div class="row">
                 <div class="col-12 p-0">
                     <div class="heading_title">
-                        <h5>Top dearlership opportunities</h5>
+                        <h5>Trending dealership opportunities</h5>
                         <a class="btn btn-show-more" href="{{ route('listByTopDealership') }}"> Show more</a>
                     </div>
                 </div>

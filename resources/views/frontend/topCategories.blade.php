@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-12 p-0">
                             <div class="heading_title">
-                                <h5>Top categories</h5>
+                                <h5>Trending categories</h5>
                             </div>
                         </div>
                         @foreach ($getTopCategories as $topCategory)
