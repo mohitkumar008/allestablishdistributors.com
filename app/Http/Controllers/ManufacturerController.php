@@ -78,6 +78,7 @@ class ManufacturerController extends Controller
             DB::beginTransaction();
             $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year", "verify_status", "top", "featured", "top_brands", "home_top_brands"]);
 
+            $input['status'] = $request->status ?? 0;
             $input['company_slug'] = Str::slug($request->company_name);
             $input['business_nature'] = $request->post('business_nature') ? implode(", ", $request->post('business_nature')) : "";
             $input['distributorship_location'] = $request->post('distributorship_location') ? implode(",", $request->post('distributorship_location')) : "";
@@ -155,6 +156,7 @@ class ManufacturerController extends Controller
             DB::beginTransaction();
             $input = $request->only(["first_name", "last_name", "mobile_number", "email", "whatsapp_number", "category_id", "investment_range", "company_name", "states", "marketing_support", "sales_support", "term_renewable", "standard_distributorship_aggrement", "distributorship_terms_for", "margin_commission", "space_required", "gst_number", "brand_name", "number_of_employees", "annual_sales", "product_keywords", "distributors_benefits", "company_profile", "usp_of_products", "address", "establishment_year", "verify_status"]);
 
+            $input['status'] = $request->status ?? 0;
             $input['top'] = $request->top ?? 0;
             $input['featured'] = $request->featured ?? 0;
             $input['top_brands'] = $request->top_brands ?? 0;
@@ -205,5 +207,16 @@ class ManufacturerController extends Controller
     public function destroy(Manufacturer $manufacturer)
     {
         //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function productDelete(Product $product)
+    {
+        if($product){
+            $product->delete();
+            return redirect()->back()->with('success', 'Product deleted successfully.');
+        }
     }
 }

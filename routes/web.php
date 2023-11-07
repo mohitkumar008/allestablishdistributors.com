@@ -43,6 +43,7 @@ Route::middleware('auth')->prefix('v2')->group(function () {
     Route::resource('manufacturers', ManufacturerController::class);
     Route::resource('categories', CategoryController::class);
     Route::resource('leads', LeadController::class);
+    Route::get('/product/{product}/delete', [ManufacturerController::class, 'productDelete'])->name('productDelete');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');

@@ -124,7 +124,7 @@
                                                 @foreach ($categories as $category)
                                                     <option value="{{ $category->id }}"
                                                         {{ old('category_id') == $category->id ? 'selected' : '' }}>
-                                                        {{ $category->title }}</option>
+                                                        {!! $category->title !!}</option>
                                                 @endforeach
                                             </select>
                                         </div>
@@ -198,7 +198,7 @@
 
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <label>Company Name</label>
+                                        <label>Company Name<span class="text-warning">*</span></label>
                                         <input type="text"
                                             class="form-control @error('company_name') parsley-error @enderror"
                                             name="company_name" value="{{ old('company_name') }}">
@@ -381,9 +381,9 @@
                                         <div class="">
                                             <select name="verify_status"
                                                 class="form-control @error('verify_status') parsley-error @enderror">
-                                                <option value="Premium">Premium</option>
-                                                <option value="Verified">Verified</option>
-                                                <option value="Trusted">Trusted</option>
+                                                <option value="1">Premium</option>
+                                                <option value="2">Verified</option>
+                                                <option value="3">Trusted</option>
                                             </select>
                                         </div>
                                         @error('verify_status')

@@ -132,7 +132,7 @@
                                                 @foreach ($categories as $category)
                                                     <option value="{{ $category->id }}"
                                                         {{ $manufacturer->category_id == $category->id ? 'selected' : '' }}>
-                                                        {{ $category->title }}</option>
+                                                        {!! $category->title !!}</option>
                                                 @endforeach
                                             </select>
                                         </div>
@@ -212,7 +212,7 @@
 
                                 <div class="col-lg-4">
                                     <div class="form-group">
-                                        <label>Company Name</label>
+                                        <label>Company Name<span class="text-warning">*</span></label>
                                         <input type="text"
                                             class="form-control @error('company_name') parsley-error @enderror"
                                             name="company_name" value="{{ $manufacturer->company_name }}">
@@ -412,9 +412,12 @@
                                         <div class="">
                                             <select name="verify_status"
                                                 class="form-control @error('verify_status') parsley-error @enderror">
-                                                <option {{$manufacturer->verify_status == 1 ? "selected" : ""}} value="1">Premium</option>
-                                                <option {{$manufacturer->verify_status == 2 ? "selected" : ""}} value="2">Verified</option>
-                                                <option {{$manufacturer->verify_status == 3 ? "selected" : ""}} value="3">Trusted</option>
+                                                <option {{ $manufacturer->verify_status == 1 ? 'selected' : '' }}
+                                                    value="1">Premium</option>
+                                                <option {{ $manufacturer->verify_status == 2 ? 'selected' : '' }}
+                                                    value="2">Verified</option>
+                                                <option {{ $manufacturer->verify_status == 3 ? 'selected' : '' }}
+                                                    value="3">Trusted</option>
                                             </select>
                                         </div>
                                         @error('verify_status')
@@ -608,31 +611,40 @@
 
                                 <div class="col-lg-3">
                                     <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="top" value="1" {{$manufacturer->top == 1 ? "checked" : ""}}><span>Top Dealership</span></label>
+                                        <label><input type="checkbox" name="top" value="1"
+                                                {{ $manufacturer->top == 1 ? 'checked' : '' }}><span>Top
+                                                Dealership</span></label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="featured" value="1" {{$manufacturer->featured == 1 ? "checked" : ""}}><span>Featured Dealership</span></label>
+                                        <label><input type="checkbox" name="featured" value="1"
+                                                {{ $manufacturer->featured == 1 ? 'checked' : '' }}><span>Featured
+                                                Dealership</span></label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="top_brands" value="1" {{$manufacturer->top_brands == 1 ? "checked" : ""}}><span>Top Brand</span></label>
+                                        <label><input type="checkbox" name="top_brands" value="1"
+                                                {{ $manufacturer->top_brands == 1 ? 'checked' : '' }}><span>Top
+                                                Brand</span></label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="home_top_brands" value="1" {{$manufacturer->home_top_brands == 1 ? "checked" : ""}}><span>Top Brand (Homepage)</span></label>
+                                        <label><input type="checkbox" name="home_top_brands" value="1"
+                                                {{ $manufacturer->home_top_brands == 1 ? 'checked' : '' }}><span>Top Brand
+                                                (Homepage)</span></label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
                                     <div class="fancy-checkbox">
-                                        <label><input type="checkbox" name="status" value="1" {{$manufacturer->status == 1 ? "checked" : ""}}><span>Active</span></label>
+                                        <label><input type="checkbox" name="status" value="1"
+                                                {{ $manufacturer->status == 1 ? 'checked' : '' }}><span>Active</span></label>
                                     </div>
                                 </div>
 
@@ -643,6 +655,34 @@
                                     <h6>Products<button type="button" class="btn btn-primary" id="addProduct">+</button>
                                     </h6>
                                 </div>
+                            </div>
+                            <div class="row">
+                                @if (!$manufacturer->products->isEmpty())
+                                    @foreach ($manufacturer->products as $product)
+                                        <div class="col-lg-3 col-md-4 col-sm-12">
+                                            <div class="card">
+                                                <div class="file">
+                                                    <a href="javascript:void(0);">
+                                                        <div class="hover">
+                                                            <a href="{{route('productDelete', ['product' => $product->id])}}" class="btn btn-icon btn-danger text-white">
+                                                                <i class="fa fa-trash"></i>
+                                                            </a>
+                                                        </div>
+                                                        @if (Storage::exists($product->product_image))
+                                                            <div class="image">
+                                                                <img src="{{Storage::url($product->product_image)}}" alt="img"
+                                                                    class="img-fluid">
+                                                            </div>
+                                                        @endif
+                                                        <div class="file-name">
+                                                            <p class="m-b-5 text-muted">{{$product->product_name}}</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                @endif
                             </div>
                             <br>
                             <button type="submit" class="btn btn-primary">Submit</button>

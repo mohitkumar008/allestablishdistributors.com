@@ -57,6 +57,10 @@ class Manufacturer extends Model
         return $this->hasMany(Product::class);
     }
 
+    public function scopeActive($query) : Builder {
+        return $query->where('status', 1);
+    }
+
     public function scopeTopDealerShip($query) : Builder {
         return $query->where('top', 1);
     }
