@@ -28,6 +28,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="{{ asset('frontend/css/common.css') }}">
     <style>
         .login_popup_modal .modal-content {
             background-color: #fff !important;
@@ -83,8 +84,8 @@
 
                         <div class="form-group col-12">
                             <textarea class="form-control" name="description" rows="4" placeholder="Write your requirement" required></textarea>
-                            <input type="hidden" class="form-control" name="product_id" id="enquiry_model_product_id"
-                                value="0">
+                            <input type="hidden" class="form-control" name="product_id"
+                                id="enquiry_model_product_id" value="0">
                             <input type="hidden" class="form-control" name="manufacturer_id"
                                 id="enquiry_model_user_id" value="0">
                         </div>
