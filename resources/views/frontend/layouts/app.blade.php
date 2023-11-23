@@ -11,7 +11,7 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 
-    <title>Distributors &amp; Dealers Opportunity in India - All Establish Destributors</title>
+    <title>Dealers &amp; Distributors Opportunity in India - All Establish Destributors</title>
     <meta name="author" content="Mohit Kumar">
     <meta name="description"
         content="All Establish Destributors is an unique platform to appoint distributors, apply for distributorship and become a wholesale distributor. Dealership  opportunities in India.">
@@ -29,202 +29,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
-        .site-brand img {
-            padding: 10px;
-            max-height: 60px;
-            transform: scale(1.3);
-            margin-top: 5px;
-            margin-left: 20px;
-        }
-
-        .post_requirement #heading_requirement {
-            font-size: 15px;
-            color: #203a73;
-            padding-bottom: 5px;
-            margin: 0;
-        }
-
-        #UpperBannerContainer {
-            background-position: center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
-        .card {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            min-width: 0px;
-            overflow-wrap: break-word;
-            background-color: transparent !important;
-            background-clip: border-box;
-            border-radius: 4px;
-            padding: 12px 15px !important;
-            margin-bottom: 15px;
-            margin-top: 15px;
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(237 28 36 / 20%);
-            color: #ffffff;
-            margin-top: 50px;
-        }
-
-        .p-0 {
-            padding: 0;
-        }
-
-        .m-0 {
-            margin: 0;
-        }
-
-        .card-p-20 {
-            padding: 20px;
-        }
-
-        .float-right {
-            float: right !important;
-        }
-
-        .pt-30 {
-            padding-top: 30px !important;
-        }
-
-        .business-a {
-            border: 1px solid #fff;
-            color: white !important;
-            text-decoration: none;
-            font-size: 16px;
-            padding: 10px;
-            font-weight: 500;
-            border-radius: 4px;
-            display: block;
-            position: relative;
-            background-color: #203a73;
-            margin-top: 2%;
-        }
-
-        .business-a a {
-            color: white !important;
-            text-decoration: none;
-
-        }
-
-        .mb-15 {
-            margin-bottom: 15px;
-        }
-
-        @media screen and (width: 1024px) {
-            ul.new-brand li {
-                width: 238px !important;
-            }
-
-            .card-m {
-                height: auto !important;
-            }
-
-            .card-sale {
-                height: 399px !important;
-            }
-        }
-
-        @media screen and (width: 768px) {
-            .card-m {
-                height: auto !important;
-            }
-
-            .card-sale {
-                height: 399px !important;
-            }
-
-            ul.new-brand li {
-                width: 372px !important;
-            }
-
-            .card-sale {
-                height: 399px;
-            }
-        }
-
-        .input-group-addon {
-            /* padding: 0px 0px; */
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 1;
-            color: rgb(85, 85, 85);
-            text-align: center;
-            background-color: rgb(238, 238, 238);
-            border: 1px solid rgb(204, 204, 204);
-            border-radius: 4px;
-        }
-
-        .icon-section-main img {
-            width: 20px;
-        }
-
-        .form-ask-experts h4 {
-            font-weight: 600;
-        }
-
-        .section-30 {
-            padding-bottom: 30px;
-        }
-
-        .section-ptb h2 {
-            font-size: 26px;
-            font-weight: 700;
-        }
-
-        .section-ptb h2::after {
-            content: "";
-            display: block;
-            width: 67px;
-            height: 1px;
-            border-radius: 0px;
-            background: rgb(237, 28, 36);
-            margin: 11px 0px 21px;
-        }
-
-        .ask_sec_header {
-            padding: 10px;
-            padding-left: 0px !important;
-        }
-
         .login_popup_modal .modal-content {
             background-color: #fff !important;
-            background: url({{asset('frontend/image/bgg.jpg')}});
-            background-size: 100% 100%;
-            width: 75%;
-        }
-
-        .CloseMobileMenuBtn {
-            font-size: 35px !important;
-            margin-top: -20%;
-            color: #fff !important;
-        }
-
-        .Hamburg_icon {
-            font-size: 24px;
-            height: 30px;
-            margin-right: 14px;
-            margin-top: 14px;
+            background: url({{ asset('frontend/image/bgg.jpg') }});
+            /* background-size: 100% 100%; */
+            /* width: 75%; */
         }
     </style>
 </head>
 
 <body>
-    
+
     @include('frontend.layouts.header')
-    
+
     @section('content')
-    
+
     @show
-    
+
     @include('frontend.layouts.footer')
-    
-    
+
+
     <button id="BtnOpenEnquiriesModal" data-toggle="modal" data-target="#SendEnquiresModel"
         style="visibility: hidden;"></button>
     <div class="modal fade" id="SendEnquiresModel" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenteredLabel_fst" aria-hidden="true" data-keyboard="false"
-        data-backdrop="static">
+        aria-labelledby="exampleModalCenteredLabel_fst" aria-hidden="true" data-keyboard="false" data-backdrop="static">
         <div class="modal-dialog modal-dialog-centered login_popup" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -235,12 +63,10 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form class="row" method="post" id="SendEnquiryForm"
-                        action="{{route('sendRequirement')}}">
+                    <form class="row" method="post" id="SendEnquiryForm" action="{{ route('sendRequirement') }}">
                         @csrf
                         <div class="form-group col-12">
-                            <input type="text" class="form-control" placeholder="Enter name" name="name"
-                                required>
+                            <input type="text" class="form-control" placeholder="Enter name" name="name" required>
                         </div>
                         <div class="form-group col-12">
                             <input type="text" class="form-control" placeholder="Enter mobile" name="mobile"
@@ -251,16 +77,16 @@
                                 required>
                         </div>
                         <div class="form-group col-12">
-                            <input type="text" class="form-control" placeholder="Enter location"
-                                name="location" required>
+                            <input type="text" class="form-control" placeholder="Enter location" name="location"
+                                required>
                         </div>
 
                         <div class="form-group col-12">
                             <textarea class="form-control" name="description" rows="4" placeholder="Write your requirement" required></textarea>
-                            <input type="hidden" class="form-control" name="product_id"
-                                id="enquiry_model_product_id" value="0">
-                            <input type="hidden" class="form-control" name="manufacturer_id" id="enquiry_model_user_id"
+                            <input type="hidden" class="form-control" name="product_id" id="enquiry_model_product_id"
                                 value="0">
+                            <input type="hidden" class="form-control" name="manufacturer_id"
+                                id="enquiry_model_user_id" value="0">
                         </div>
                         <div class="col-12 text-center">
                             <button type="submit" class="btn btn-theme">Submit</button>
@@ -273,7 +99,7 @@
 
     <button id="BtnOpenLoginModal" data-toggle="modal" data-target="#UserLoginModel"
         style="visibility: hidden;"></button>
-    
+
 
     <script src="{{ asset('frontend/js/jquery3.2.js') }}"></script>
     <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
